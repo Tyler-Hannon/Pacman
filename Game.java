@@ -14,7 +14,7 @@ public class Game extends JFrame
 		controller = new Controller(model);
 		view = new View(controller, model);
 
-		this.setTitle("A5: Sprites");
+		this.setTitle("PACMAN!!!");
 		this.setSize(WINDOWSIZE, WINDOWSIZE);
 		this.setFocusable(true);
 		this.getContentPane().add(view);
